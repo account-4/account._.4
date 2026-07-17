@@ -8,7 +8,7 @@
     font-family: "gg sans", "Noto Sans", "Segoe UI", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
 }
 
-.ADHeader{
+.Header{
     height: 40px;
     width: 100%;
     display: flex;
@@ -20,7 +20,7 @@
     box-sizing: border-box;
 }
 
-.ADHButton{
+.HButton{
     display: inline-block;
     background-color: transparent;
     border: none;
@@ -28,7 +28,7 @@
     margin: 0px 0px 0px 10px;
 }
 
-.ADHButton:hover{
+.HButton:hover{
     display: inline-block;
     color: #dddddd;
     text-decoration: underline;
@@ -67,28 +67,52 @@
 
 .center{
     text-align: center;
+    margin: 10px 10px 10px 10px;
 }
 
 .left{
     text-align: left;
-    margin: 0px 0px 0px 10px;
+    margin: 10px 10px 10px 10px;
 }
 
 .right{
     text-align: right;
-    margin: 0px 10px 0px 0px;
+    margin: 10px 10px 10px 10px;
 }
 
 .rl{
     writing-mode: vertical-rl;
+    margin: 10px 10px 10px 10px;
 }
 
 .lr{
     writing-mode: vertical-lr;
+    margin: 10px 10px 10px 10px;
 }
 
-.flex{
+.jfl{
+    justify-content: flex-start;
     display: flex;
+    margin: 10px 10px 10px 10px;
+}
+
+.jfr{
+    justify-content: flex-end;
+    display: flex;
+    margin: 10px 10px 10px 10px;
+}
+
+.jfc{
+    justify-content: center;
+    display: flex;
+    margin: 10px 10px 10px 10px;
+}
+
+.box{
+    border: 1px solid #363c42;
+    border-radius: 4px;
+    background-color: #2c2e30;
+    padding: 10px;
 }
 
 @media (max-width: 768px) {
