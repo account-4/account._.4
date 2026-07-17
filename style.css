@@ -2,5 +2,105 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 1em;
+}
+
+.font,.ADHButton{
+    font-family: "gg sans", "Noto Sans", "Segoe UI", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+}
+
+.ADHeader{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    gap:30px;
+    background-color:#191a1b;
+    border-bottom: 1px solid #363c42;
+    text-align: right;
+    line-height: 40px;
+    box-sizing: border-box;
+}
+
+.ADHButton{
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    color: #a6a6a7;
+    margin: 0px 0px 0px 10px;
+}
+
+.ADHButton:hover{
+    display: inline-block;
+    color: #dddddd;
+    text-decoration: underline;
+}
+
+.AboutDesk {
+      display: flex;
+      width: 100%;
+      min-height: 200vh;
+    }
+
+.AboutDeskLeft, .AboutDeskRight {
+      width: 25%;
+      flex-shrink: 0;
+      background-color: #121314;
+      color:#0b0b0c4d;;
+      /* color:#0b0b0c; */
+      user-select: none;
+    -webkit-user-select: none;
+    }
+
+.AboutDeskLeft{
+    text-align: left;
+}
+
+.AboutDeskRight{
+    text-align: right;
+}
+
+.AboutDeskCenter {
+      flex: 1;
+      background-color: #191a1b;
+      border: 1.5px solid #363c42;
+      color:#dddddd;
+    }
+
+.center{
+    text-align: center;
+}
+
+.left{
+    text-align: left;
+    margin: 0px 0px 0px 10px;
+}
+
+.right{
+    text-align: right;
+    margin: 0px 10px 0px 0px;
+}
+
+.rl{
+    writing-mode: vertical-rl;
+}
+
+.lr{
+    writing-mode: vertical-lr;
+}
+
+.flex{
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    /*スマホ表示*/
+      .AboutDeskLeft, .AboutDeskRight,.ADHLeft,.ADHRight {
+        display: none;
+      }
+    }
+
+@media (min-width: 769px) {
+    /* PC非表示 */
+  .ADHHButton {
+    display: none; 
+  }
 }
