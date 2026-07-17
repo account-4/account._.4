@@ -8,6 +8,15 @@ html {
     background-color: #121314;
 }
 
+a{
+    color: #3d8ce6;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
 .font,
 .ADHButton {
     font-family: "gg sans", "Noto Sans", "Segoe UI", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
