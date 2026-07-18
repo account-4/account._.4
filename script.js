@@ -32,3 +32,6 @@ function replaceContent(filePath, targetId, displayAreaId) {
       console.error('エラーが発生しました:', error);
     });
 }
+
+//URLをaccount-4.jpに固定
+    history.replaceState(null, null, '/');
