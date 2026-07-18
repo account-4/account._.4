@@ -137,6 +137,64 @@ a:hover{
     border-radius: 4px;
     background-color: #2c2e30;
     padding: 10px;
+    position: relative;
+    display: block;
+}
+
+.pop {
+  position: relative ; 
+  display: inline-block;
+  cursor: pointer;
+}
+
+.pop-text {
+  display: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 1px solid #363c42;
+  background-color: #191a1b;
+  position: absolute;
+}
+
+.pop:focus .pop-text {
+    display: block;
+}
+
+/*color*/
+.red{
+    color:rgb(240, 19, 67);
+}
+
+.yellow{
+    color: rgb(233, 205, 47);
+}
+
+.bule{
+    color: rgb(75, 77, 238);
+}
+
+.purple{
+    color: rgb(185, 25, 185);
+}
+
+.cyan{
+    color: rgb(57, 197, 197);
+}
+
+.white{
+    color: #dddddd;
+}
+
+.gray{
+    color: #7e7e80;
+}
+
+.black{
+    color: #000000;
+}
+
+.ban{
+    text-decoration: line-through solid red;
 }
 
 @media (max-width: 768px) {
