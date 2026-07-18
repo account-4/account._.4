@@ -62,6 +62,14 @@ a:hover{
     font-family: "Yu Mincho", "游明朝", "Hiragino Mincho ProN", serif;
 }
 
+.selnoback::selection{
+    background-color: transparent;
+}
+
+.selnoback::-webkit-selection{
+    background-color: transparent;
+}
+
 .hide{
     color: #00000046;
 }
@@ -81,7 +89,7 @@ a:hover{
 }
 
 .AboutDeskRight {
-    text-align: left;
+    text-align: right;
 }
 
 .AboutDeskCenterBlanc {
@@ -112,6 +120,21 @@ a:hover{
 .right {
     text-align: right;
     margin: 10px 10px 10px 10px;
+}
+
+.ncenter{
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+}
+
+.nleft {
+    text-align: left;
+    margin: 0px 10px 0px 10px;
+}
+
+.nright {
+    text-align: right;
+    margin: 0px 10px 0px 10px;
 }
 
 .rl {

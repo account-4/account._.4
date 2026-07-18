@@ -32,10 +32,3 @@ function replaceContent(filePath, targetId, displayAreaId) {
       console.error('エラーが発生しました:', error);
     });
 }
-
-//ctrl+Aのキャンセル
-window.addEventListener('keydown', function(e) {
-    if ((e.ctrlKey || e.metaKey) && e.key === 'a') {
-        e.preventDefault();
-    }
-});
