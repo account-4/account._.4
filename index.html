@@ -15,7 +15,7 @@
 <body class="font">
     <div class="AboutDesk">
 
-        <div class="AboutDeskLeft">
+        <div class="AboutDeskLeft hide">
             left 机について
         </div>
 
@@ -54,12 +54,19 @@
                 </div>
             </div>
         </div>
-        <div class="AboutDeskRight">
-            夢、なんて呼ばれるのが僕は嫌いだった。「作家を目指している。」そう言えば誰しもが、「いい夢だね。」そうやって言う。でも現実も見ながら、とも言う。「作家にならなきゃいけないんだ。」と言ってみる。志があるんだねと言われる。「作家になれなきゃ生きていけないんだ。」そう言ってみる。「頑張ってね、応援してる。」もしくは、「気取りすぎている。」と言われる。違う。書かなきゃ生きていけない。<span class="white">ねえ、きこえてる？</span>
+        <div class="AboutDeskRight hide">
+            夢、なんて呼ばれるのが僕は嫌いだった。「作家を目指している。」そう言えば誰しもが、「いい夢だね。」そうやって言う。でも現実も見ながら、とも言う。「作家にならなきゃいけないんだ。」と言ってみる。志があるんだねと言われる。「作家になれなきゃ生きていけないんだ。」そう言ってみる。「頑張ってね、応援してる。」もしくは、「気取りすぎている。」と言われる。違う。書かなきゃ生きていけない。<span class="white">ねえ、きこえてる？</span><span class="noise">どうしても僕より苦しい人はいちゃいけないんだ</span>
         </div>
 
     </div>
 </body>
 <script src="script.js"></script>
+
+<svg style="display: none;">
+  <filter id="noise">
+    <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" result="noise" />
+    <feDisplacementMap in="SourceGraphic" in2="noise" scale="3" />
+  </filter>
+</svg>
 
 </html>

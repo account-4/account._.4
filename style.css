@@ -59,11 +59,21 @@ a:hover{
     width: 25%;
     flex-shrink: 0;
     background-color: #121314;
-    color: #0b0b0ca1;
-    ;
     font-family: "Yu Mincho", "游明朝", "Hiragino Mincho ProN", serif;
-    user-select: none;
-    -webkit-user-select: none;
+}
+
+.hide{
+    color: #ffffff05;
+}
+
+.hide::selection{
+    background-color: #ff0000;
+    color: #000000;
+}
+
+.hide::-webkit-selection{
+    background-color: #ff0000;
+    color: #000000;
 }
 
 .AboutDeskLeft {
@@ -71,7 +81,7 @@ a:hover{
 }
 
 .AboutDeskRight {
-    text-align: right;
+    text-align: left;
 }
 
 .AboutDeskCenterBlanc {
@@ -198,6 +208,10 @@ a:hover{
 
 .ban{
     text-decoration: line-through solid red;
+}
+
+.noise{
+    filter: url(#noise);
 }
 
 @media (max-width: 768px) {
