@@ -32,8 +32,3 @@ function replaceContent(filePath, targetId, displayAreaId) {
       console.error('エラーが発生しました:', error);
     });
 }
-
-//URLをaccount-4.jpに固定
-window.addEventListener('DOMContentLoaded', () => {
-    history.replaceState(null, null, '/home');
-});
