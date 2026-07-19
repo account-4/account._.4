@@ -63,16 +63,12 @@ a:hover {
     font-family: "Yu Mincho", "游明朝", "Hiragino Mincho ProN", serif;
 }
 
-.selnoback::selection {
-    background-color: transparent;
-}
-
-.selnoback::-webkit-selection {
-    background-color: transparent;
+.selnoback::selection{
+    background-color: #ff00009c;
 }
 
 .hide {
-    color: #00000046;
+    color: #00000020;
 }
 
 .hide::selection {
