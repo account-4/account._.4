@@ -258,6 +258,10 @@ a:hover {
     color: #7e7e80;
 }
 
+.rp{
+    font-size: 70%;
+}
+
 .fit {
     display: block;
     height: 250px;
