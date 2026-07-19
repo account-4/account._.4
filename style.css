@@ -251,6 +251,13 @@ a:hover {
     font-size: 70%;
 }
 
+.react{
+    border-radius: 8px;
+    padding: 0px 3px;
+    background-color: #3a3939;
+    color: #7e7e80;
+}
+
 .fit {
     display: block;
     height: 250px;
