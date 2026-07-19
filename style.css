@@ -7,13 +7,14 @@
 html {
     background-color: #121314;
 }
+
 /**/
-a{
+a {
     color: #3d8ce6;
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
 }
 
@@ -62,24 +63,24 @@ a:hover{
     font-family: "Yu Mincho", "游明朝", "Hiragino Mincho ProN", serif;
 }
 
-.selnoback::selection{
+.selnoback::selection {
     background-color: transparent;
 }
 
-.selnoback::-webkit-selection{
+.selnoback::-webkit-selection {
     background-color: transparent;
 }
 
-.hide{
+.hide {
     color: #00000046;
 }
 
-.hide::selection{
+.hide::selection {
     background-color: #ff0000;
     color: #000000;
 }
 
-.hide::-webkit-selection{
+.hide::-webkit-selection {
     background-color: #ff0000;
     color: #000000;
 }
@@ -122,7 +123,7 @@ a:hover{
     margin: 10px 10px 10px 10px;
 }
 
-.ncenter{
+.ncenter {
     text-align: center;
     margin: 0px 10px 0px 10px;
 }
@@ -175,18 +176,18 @@ a:hover{
 }
 
 .pop {
-  position: relative ; 
-  display: inline-block;
-  cursor: pointer;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
 }
 
 .pop-text {
-  display: none;
-  padding: 5px 10px;
-  border-radius: 8px;
-  border: 1px solid #363c42;
-  background-color: #191a1b;
-  position: absolute;
+    display: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 1px solid #363c42;
+    background-color: #191a1b;
+    position: absolute;
 }
 
 .pop:focus .pop-text {
@@ -194,47 +195,87 @@ a:hover{
 }
 
 /*color*/
-.red{
-    color:rgb(240, 19, 67);
+.red {
+    color: rgb(240, 19, 67);
 }
 
-.yellow{
+.yellow {
     color: rgb(233, 205, 47);
 }
 
-.blue{
+.blue {
     color: rgb(106, 108, 230);
     background-color: rgb(48, 48, 94);
     border-radius: 8px;
     padding: 0px 4px;
 }
 
-.purple{
+.purple {
     color: rgb(185, 25, 185);
 }
 
-.cyan{
+.cyan {
     color: rgb(57, 197, 197);
 }
 
-.white{
+.white {
     color: #dddddd;
 }
 
-.gray{
+.gray {
     color: #7e7e80;
 }
 
-.black{
+.black {
     color: #000000;
 }
 
-.ban{
+.ban {
     text-decoration: line-through solid red;
 }
 
-.noise{
+.noise {
     filter: url(#noise);
+}
+
+.nusi {
+    background-color: #bbcfe9;
+    color: #062b55;
+    font-size: 60%;
+    border-radius: 3px;
+    padding: 0px 3px 0px 3px;
+}
+
+.time {
+    color: #7e7e80;
+    font-size: 70%;
+}
+
+.fit {
+    display: block;
+    height: 250px;
+    border-radius: 16px;
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+.fitmini {
+    display: block;
+    height: 200px;
+    border-radius: 16px;
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+.LButton {
+    background-color: transparent;
+    border: 0px;
+    color: #a0a3a7;
+}
+
+.LButton:hover {
+    color: #dddddd;
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {

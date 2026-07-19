@@ -30,6 +30,28 @@
                     coming soon.<br>
                 </div>
             </div>
+            <div class="AboutDeskCenter">
+                <header class="Header">
+                    <!--ボタンカラーの切り替えはめんどいので放棄。-->
+                    <!--onclick="replaceContent('ここにソース先のファイルのパス', 'ソース先のファイルのソースのID', '出力先のID')"-->
+                    <!--ソース先のファイルも作成すること。ソース用のテンプレートファイルはtemp_text.htmlです。-->
+                    <!--Scriptを使うので一番下のパスを合わせておいて。-->
+                    <button class="HButton">chatlogs</button>
+                </header>
+                <!--挿入先のdivはclassを付けないほうが良き。-->
+                <div id="window2">
+                    <div class="left">
+                    <button class="LButton" onclick="replaceContent('logs_text.html', 'deathmbti', 'logwindow')">「死」って結局なんなんだろう<small>/2026年7月18日</small></button>
+                    </div>
+                </div>
+            </div>
+            <div class="AboutDeskCenter">
+                <div id="logwindow">
+                    <div class="left">
+                    ログを選択してください。
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="AboutDeskRight"></div>
 
