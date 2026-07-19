@@ -34,4 +34,6 @@ function replaceContent(filePath, targetId, displayAreaId) {
 }
 
 //URLをaccount-4.jpに固定
-    history.replaceState(null, null, '/');
+window.addEventListener('DOMContentLoaded', () => {
+    history.replaceState(null, null, '/home');
+});
