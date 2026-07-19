@@ -108,6 +108,7 @@ a:hover {
     margin: 20px 0px 20px 0px;
 }
 
+/*行揃え*/
 .center {
     text-align: center;
     margin: 10px 10px 10px 10px;
@@ -123,6 +124,7 @@ a:hover {
     margin: 10px 10px 10px 10px;
 }
 
+/*上下マージンなしの揃え*/
 .ncenter {
     text-align: center;
     margin: 0px 10px 0px 10px;
@@ -138,6 +140,7 @@ a:hover {
     margin: 0px 10px 0px 10px;
 }
 
+/*縦書き揃え*/
 .rl {
     writing-mode: vertical-rl;
     margin: 10px 10px 10px 10px;
@@ -148,6 +151,7 @@ a:hover {
     margin: 10px 10px 10px 10px;
 }
 
+/*コンテンツの配置制御*/
 .jfl {
     justify-content: flex-start;
     display: flex;
@@ -166,6 +170,7 @@ a:hover {
     margin: 10px 10px 10px 10px;
 }
 
+/*テキストボックス表示*/
 .box {
     border: 1px solid #363c42;
     border-radius: 8px;
@@ -175,6 +180,7 @@ a:hover {
     display: block;
 }
 
+/*メンバー用のポップ*/
 .pop {
     position: relative;
     display: inline-block;
@@ -238,6 +244,7 @@ a:hover {
     filter: url(#noise);
 }
 
+/*チャットログ用装飾*/
 .nusi {
     background-color: #bbcfe9;
     color: #062b55;
