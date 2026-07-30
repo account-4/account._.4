@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="theme-color" content="#000000">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="DESKとはDESKが求める知性、感性、感受、感覚、痛みを、持つ方々のための場です。DESKは主にDiscordサーバーでのメンバー同士の相互なる認識を提供します。">
+    <meta name="description"
+        content="DESKとはDESKが求める知性、感性、感受、感覚、痛みを、持つ方々のための場です。DESKは主にDiscordサーバーでのメンバー同士の相互なる認識を提供します。">
     <title>DESK works</title>
     <link rel="stylesheet" href="../style.css">
     <link rel="icon" href="../favicon.png" type="image/png">
@@ -34,8 +35,10 @@
                 <header class="Header">
                     <button class="HButton" style="color: #dddddd;">account._.4</button>
                 </header>
-                <div class="left">
-                    <a href="https://note.com/account_4/m/m30f1efa2a220"><small>ぼくのだいありー</small></a>
+                <div class="left" id="account_4">
+                    <input class="input" type="text" id="dayTime" placeholder="????/??/?? ? ?"><button class="SButton"
+                        id="diary">↩</button>
+                    <div id="diaryText" class="time"></div>
                 </div>
             </div>
         </div>
@@ -44,5 +47,6 @@
     </div>
 </body>
 <script src="../script.js"></script>
+<script src="account_4/diary.js"></script>
 
 </html>

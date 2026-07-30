@@ -315,3 +315,49 @@ a:hover {
         display: none;
     }
 }
+
+.loading {
+  color: #b6b6b6;
+  animation: blink 0.9s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1; 
+  }
+}
+
+/*検索ボタン*/
+.SButton{
+    padding: 1px 10px;
+    border-radius:3px;
+    border: 1px solid #363c42;
+    background-color: #363c42;
+    margin-left: 8px;
+    color: #b6b6b6;
+    height: 30px;
+}
+
+.input{
+    background-color: transparent;
+    border-radius: 3px;
+    border: 1px solid #363c42;
+    color: #b6b6b6;
+    width: 150px;
+    height: 30px;
+    padding: 2px 5px;
+    margin: 5px 0px;
+}
+
+.input:focus{
+    outline: none;
+    border-radius: 3px;
+    border:1px solid#7e7e80;
+    color: #b6b6b6;
+}
