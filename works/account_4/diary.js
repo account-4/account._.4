@@ -7,7 +7,7 @@ document.getElementById("diary").addEventListener("click", () => {
   const resultBox = document.getElementById("diaryText");
 
   if (!inputVal) {
-    resultBox.innerText = "日付と日時を入力";
+    resultBox.innerText = "日付と時刻を入力";
     return;
   }
 
