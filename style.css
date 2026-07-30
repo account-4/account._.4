@@ -204,20 +204,16 @@ a:hover {
 .yellow {
     color: rgb(233, 205, 47);
 }
-
-.blue {
-    color: rgb(106, 108, 230);
-    background-color: rgb(48, 48, 94);
-    border-radius: 8px;
-    padding: 0px 4px;
-}
-
 .purple {
     color: rgb(185, 25, 185);
 }
 
 .cyan {
     color: rgb(57, 197, 197);
+}
+
+.green{
+    color: #37ec6d;
 }
 
 .white {
@@ -232,6 +228,14 @@ a:hover {
     color: #000000;
 }
 
+/*メンションやチャンネル*/
+.blue {
+    color: rgb(106, 108, 230);
+    background-color: rgb(48, 48, 94);
+    border-radius: 8px;
+    padding: 0px 4px;
+}
+
 .ban {
     text-decoration: line-through solid red;
 }
@@ -241,6 +245,7 @@ a:hover {
 }
 
 /*チャットログ用装飾*/
+/*すれぬし*/
 .nusi {
     background-color: #bbcfe9;
     color: #062b55;
@@ -253,14 +258,14 @@ a:hover {
     color: #7e7e80;
     font-size: 70%;
 }
-
+/*リアクション*/
 .react{
     border-radius: 8px;
     padding: 0px 3px;
     background-color: #3a3939;
     color: #7e7e80;
 }
-
+/*リプライ*/
 .rp{
     font-size: 70%;
 }
@@ -272,7 +277,7 @@ a:hover {
     max-width: 100%;
     margin: 10px 0;
 }
-
+/*画像挿入*/
 .fitmini {
     display: block;
     height: 200px;
@@ -280,7 +285,7 @@ a:hover {
     max-width: 100%;
     margin: 10px 0;
 }
-
+/*ログボダン*/
 .LButton {
     background-color: transparent;
     border: 0px;
