@@ -190,6 +190,7 @@ a:hover {
     border: 1px solid #363c42;
     background-color: #191a1b;
     position: absolute;
+    z-index: 9999;
 }
 
 .pop:focus .pop-text {
