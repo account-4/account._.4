@@ -244,6 +244,11 @@ a:hover {
 .noise {
     filter: url(#noise);
 }
+/*区切り線*/
+.TLine{
+    border-top: 1px solid #363c42;
+    padding: 8px 0px;
+}
 
 /*チャットログ用装飾*/
 /*すれぬし*/
@@ -343,6 +348,12 @@ a:hover {
     margin-left: 8px;
     color: #b6b6b6;
     height: 30px;
+}
+
+.SButton:focus{
+    border: 1px solid #363c42;
+    background-color: #191c1f;
+    color: #818181;
 }
 
 .input{
