@@ -229,6 +229,14 @@ a:hover {
     color: #000000;
 }
 
+.kaze{
+    color:#227cc5;
+}
+
+.lemon{
+    color: #e7e7c2;
+}
+
 /*メンションやチャンネル*/
 .blue {
     color: rgb(106, 108, 230);
